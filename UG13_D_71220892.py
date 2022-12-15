@@ -1,0 +1,16 @@
+import turtle
+pen=turtle.Turtle()
+
+pen.up()
+pen.goto(0,200)
+pen.down()
+pen.pensize(40)
+pen.color("yellow")
+pen.right(90)
+pen.forward(120)
+pen.backward(120)
+pen.left(40)
+pen.forward(155)
+pen.left(139)
+pen.forward(120)
+s=turtle.Screen().exitonclick()
